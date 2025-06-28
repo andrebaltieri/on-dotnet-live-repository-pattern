@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaltaStore.Domain", "BaltaS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaltaStore.Infrastructure", "BaltaStore.Infrastructure\BaltaStore.Infrastructure.csproj", "{784A757D-E661-4093-B7ED-FB14FA53D336}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaltaStore.Infrastructure.Test", "BaltaStore.Infrastructure.Test\BaltaStore.Infrastructure.Test.csproj", "{BF31FBED-0B14-4F74-B40C-7CE67847647A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{784A757D-E661-4093-B7ED-FB14FA53D336}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{784A757D-E661-4093-B7ED-FB14FA53D336}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{784A757D-E661-4093-B7ED-FB14FA53D336}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF31FBED-0B14-4F74-B40C-7CE67847647A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF31FBED-0B14-4F74-B40C-7CE67847647A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF31FBED-0B14-4F74-B40C-7CE67847647A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF31FBED-0B14-4F74-B40C-7CE67847647A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
