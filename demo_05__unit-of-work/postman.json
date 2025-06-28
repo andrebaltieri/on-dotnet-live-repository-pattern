@@ -1,0 +1,60 @@
+{
+	"info": {
+		"_postman_id": "53dc39bc-70c2-403f-913b-cb3ebb538c3b",
+		"name": "Demo 03",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "50468"
+	},
+	"item": [
+		{
+			"name": "Get By Id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5283/v1/products/d41b78f4-e4eb-4923-a55f-2eee25ca44d0",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5283",
+					"path": [
+						"v1",
+						"products",
+						"d41b78f4-e4eb-4923-a55f-2eee25ca44d0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"title\": \"Novo produto\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5283/v1/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5283",
+					"path": [
+						"v1",
+						"products"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
